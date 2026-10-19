@@ -15,8 +15,8 @@ import { useNavigate } from "react-router-dom";
 import { useDeleteBooking } from "./useDeleteBooking";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
-import ConfirmCheckout from "../../ui/confirmCheckout";
 import Empty from "../../ui/Empty";
+import ConfirmCheckout from "../../ui/ConfirmCheckout";
 
 const HeadingGroup = styled.div`
   display: flex;
